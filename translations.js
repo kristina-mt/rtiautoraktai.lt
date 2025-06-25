@@ -88,7 +88,7 @@ At RTi Auto Raktai, we combine <strong>top-quality service</strong> with <strong
 <ul>
   <li> 5-star rated by hundreds of happy customers</li>
   <li> Transparent and competitive prices – no hidden fees</li>
-  <li> Mobile technicians available across North West UK</li>
+  <li> Mobile technicians available across Lithuania</li>
   <li> 24/7 emergency support</li>
   <li> Expertise with all makes and models</li>
   <li> Friendly, multilingual and professional approach</li>
@@ -126,11 +126,11 @@ Our programming services include:</p>
 <p>We believe in clear and competitive pricing – no hidden fees, no surprises.<br><br>
 Below is a general guide to our service rates:</p>
 <ul>
-  <li>Lockout service – from €40</li>
-  <li>Lost key solutions – from €180</li>
+  <li>Lockout service – from €20</li>
+  <li>Lost key solutions – from €80</li>
   <li>Key repairs – from €30</li>
-  <li>Key duplication – from €100</li>
-  <li>Remote keys and ignition lock repair – from €120</li>
+  <li>Key duplication – from €40</li>
+  <li>Remote keys and ignition lock repair – from €100</li>
 </ul>
 <p>All prices include professional service and warranty. Contact us for an exact quote based on your vehicle and situation.</p>
 `,
@@ -293,11 +293,11 @@ Mūsų programavimo paslaugos apima:</p>
 <p>Mūsų kainodara – skaidri ir konkurencinga. Jokių paslėptų mokesčių ar netikėtumų.<br><br>
 Žemiau pateikiamos apytikslės paslaugų kainos:</p>
 <ul>
-  <li>Avarinis atrakinimas – nuo €40</li>
+  <li>Avarinis atrakinimas – nuo €20</li>
   <li>Pamesto rakto sprendimai – nuo €180</li>
   <li>Raktų remontas – nuo €30</li>
-  <li>Raktų kopijavimas – nuo €100</li>
-  <li>Pulteliai ir uždegimo spynelės remontas – nuo €120</li>
+  <li>Raktų kopijavimas – nuo €40</li>
+  <li>Pulteliai ir uždegimo spynelės remontas – nuo €100</li>
 </ul>
 <p>Visos kainos apima profesionalų darbą ir garantiją. Norėdami sužinoti tikslią kainą – susisiekite individualiai.</p>
 `,
@@ -461,11 +461,11 @@ RTi Auto Raktai предлагает профессиональный серви
 <p>Мы предлагаем прозрачные и конкурентные цены – никаких скрытых платежей.<br><br>
 Примерная стоимость наших услуг:</p>
 <ul>
-  <li>Аварийное вскрытие – от €40</li>
+  <li>Аварийное вскрытие – от €20</li>
   <li>Услуги при потере ключа – от €180</li>
   <li>Ремонт ключей – от €30</li>
-  <li>Копирование ключей – от €100</li>
-  <li>Пульты и ремонт замка зажигания – от €120</li>
+  <li>Копирование ключей – от €40</li>
+  <li>Пульты и ремонт замка зажигания – от €100</li>
 </ul>
 <p>Все цены включают гарантию и профессиональный сервис. Свяжитесь с нами для точной оценки по вашему авто.</p>
 `,
@@ -634,11 +634,11 @@ Nasze usługi obejmują:</p>
 <p>Nasze ceny są przejrzyste i uczciwe – bez ukrytych kosztów.<br><br>
 Przykładowe stawki naszych usług:</p>
 <ul>
-  <li>Awaryjne otwieranie – od €40</li>
+  <li>Awaryjne otwieranie – od €20</li>
   <li>Rozwiązania przy utracie klucza – od €180</li>
   <li>Naprawa kluczy – od €30</li>
-  <li>Dorabianie kluczy – od €100</li>
-<li>Piloty i naprawa stacyjek zapłonowych – od €120</li>
+  <li>Dorabianie kluczy – od €40</li>
+<li>Piloty i naprawa stacyjek zapłonowych – od €100</li>
 
 </ul>
 <p>Wszystkie usługi obejmują gwarancję i profesjonalne wykonanie. Skontaktuj się z nami, aby uzyskać indywidualną wycenę.</p>
