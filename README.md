@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RTi Auto Locksmith – 24/7 UK Car Key Services
 
 **Author**: Kristina Masiulytė Tomkienė  
@@ -118,3 +119,5 @@ Website owner and QA specialist
 ---
 
 _This multilingual, responsive and SEO-optimized site serves drivers across the UK, offering quick help with keys, lockouts and ignition issues. Accessible in your preferred language – anytime, anywhere._
+# rtiautoraktai.lt
+
