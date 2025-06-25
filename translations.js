@@ -294,7 +294,7 @@ Mūsų programavimo paslaugos apima:</p>
 Žemiau pateikiamos apytikslės paslaugų kainos:</p>
 <ul>
   <li>Avarinis atrakinimas – nuo €20</li>
-  <li>Pamesto rakto sprendimai – nuo €180</li>
+  <li>Pamesto rakto sprendimai – nuo €80</li>
   <li>Raktų remontas – nuo €30</li>
   <li>Raktų kopijavimas – nuo €40</li>
   <li>Pulteliai ir uždegimo spynelės remontas – nuo €100</li>
@@ -462,7 +462,7 @@ RTi Auto Raktai предлагает профессиональный серви
 Примерная стоимость наших услуг:</p>
 <ul>
   <li>Аварийное вскрытие – от €20</li>
-  <li>Услуги при потере ключа – от €180</li>
+  <li>Услуги при потере ключа – от €80</li>
   <li>Ремонт ключей – от €30</li>
   <li>Копирование ключей – от €40</li>
   <li>Пульты и ремонт замка зажигания – от €100</li>
@@ -635,7 +635,7 @@ Nasze usługi obejmują:</p>
 Przykładowe stawki naszych usług:</p>
 <ul>
   <li>Awaryjne otwieranie – od €20</li>
-  <li>Rozwiązania przy utracie klucza – od €180</li>
+  <li>Rozwiązania przy utracie klucza – od €80</li>
   <li>Naprawa kluczy – od €30</li>
   <li>Dorabianie kluczy – od €40</li>
 <li>Piloty i naprawa stacyjek zapłonowych – od €100</li>
