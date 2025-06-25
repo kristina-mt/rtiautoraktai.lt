@@ -138,7 +138,7 @@ Below is a general guide to our service rates:</p>
     "contact-us-title": "Contact Us",
     "contact-us-text":
       "Available 24/7 across Lithuania, WhatsApp or fill out the form to reach us.",
-    "uk-contact": "📍 Lithuania",
+    "uk-contact": "📍 Lithuania, Anykščiai district ",
     footer: "© 2025 RTi Auto Raktai. All rights reserved.",
     name: "Your name",
     email: "Your email",
@@ -474,7 +474,7 @@ RTi Auto Raktai предлагает профессиональный серви
     "contact-us-text":
       "Работаем 24/7 в. Позвоните, напишите в WhatsApp или заполните форму.",
     "contact-title": "Контакты",
-    "uk-contact": "📍 Литва",
+    "uk-contact": "📍 Литва,район Аникщяй ",
 
     footer: "© 2025 RTi Auto Raktai. Все права защищены.",
     name: "Ваше имя",
@@ -533,7 +533,7 @@ Potrzebujesz pomocy z kluczem? – <strong>możesz na nas polegać</strong>.</p>
     <a href="docs/mail-in-form.pdf" target="_blank" class="btn">📄 Pobierz formularz zamówienia (PDF)</a>`,
     "gallery-title": "Galeria",
     "contact-title": "Kontakt",
-   "uk-contact": "📍 Litwa",
+   "uk-contact": "📍 Litwa,rejon Anykščiai",
 
     "training-title": "Szkolenia",
     "training-text": `
