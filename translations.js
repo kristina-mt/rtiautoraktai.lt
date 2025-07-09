@@ -5,7 +5,7 @@ const translations = {
       "Car keys, motorcycles, vans, lorries – programming, duplication, ECU remapping, emergency unlocking",
     "banner-text": "🔐 24/7 Service throughout Lithuania  .",
     "hero-phone": "📞 Call +370 623 85036  or WhatsApp",
-    "contact-button": "Contact Us",
+    "contact-button": "Call Now",
     "about-title": "About Us",
 "about-text": `
 <p>RTi Auto Raktai has over <strong>10 years of experience</strong> in the automotive locksmith industry.<br>
@@ -169,6 +169,7 @@ Below is a general guide to our service rates:</p>
     "banner-text": "🔐 24/7 pagalba visoje Lietuvoje.",
     "contact-button": "Skambinti",
     "hero-phone": "📞 Skambinkite +370 623 85036 arba rašykite WhatsApp",
+    "contact-button": "Skambinti",
     "about-title": "Apie mus",
 "about-text": `
 <p>RTi Auto Raktai turi daugiau nei <strong>10 metų patirties</strong> automobilių raktų programavimo ir avarinio atrakinimo srityje.<br><br>
@@ -336,8 +337,7 @@ Mūsų programavimo paslaugos apima:</p>
     "hero-sub":
       "Автомобили, мотоциклы, грузовики – программирование, копирование, ECU ремап",
     "banner-text": "🔐 Экстренная помощь 24/7 по всей Литве.",
-
-    "contact-button": "Связаться",
+"contact-button": "Позвонить",
    "about-title": "О нас",
 "about-text": `
 <p>RTi Auto Raktai имеет более <strong>10 лет опыта</strong> в сфере замков и ключей.<br><br>
@@ -507,7 +507,7 @@ RTi Auto Raktai предлагает профессиональный серви
       "Samochody, motocykle, ciężarówki – programowanie, kopiowanie, remap ECU",
     "banner-text": "🔐 Całodobowa pomoc awaryjna na terenie całej Litwy.",
 
-    "contact-button": "Skontaktuj się",
+    "contact-button": "Zadzwoń",
     "about-title": "O nas",
 "about-text": `
 <p>RTi Auto Raktai ma ponad <strong>10 lat doświadczenia</strong> w dziedzinie zamków i kluczy.<br><br>
