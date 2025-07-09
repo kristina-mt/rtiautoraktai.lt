@@ -153,6 +153,11 @@ if (hamburger && navLinks) {
     navLinks.classList.toggle("show");
   });
 }
+// Papildomai išversti aria-label atributus
+document.querySelectorAll("[data-i18n-aria]").forEach(el => {
+  const key = el.getAttribute("data-i18n-aria");
+  if (t[key]) el.setAttribute("aria-label", t[key]);
+});
 
   
   // Sekcijų animacija su IntersectionObserver
