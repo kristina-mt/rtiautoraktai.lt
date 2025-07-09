@@ -613,7 +613,7 @@ section::after {
   }
 }
 
-.call-now-button {
+.sticky-call-btn{
   position: fixed;
   bottom: 6.5rem;
   right: 1.5rem;
@@ -759,28 +759,5 @@ section::after {
 .universal-call-btn .phone-icon {
   width: 20px;
   height: 20px;
-  fill: #000;
-}
-.sticky-call {
-  position: fixed;
-  bottom: 90px; /* Pakelta nuo 20px iki 90px, kad nesikirstų su „Back to Top“ */
-  right: 20px;
-  background-color: #db5c13;
-  color: #000;
-  padding: 14px;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  z-index: 999;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.sticky-call:hover {
-  background-color: #ffe651;
-  transform: scale(1.1);
-}
-
-.sticky-icon {
-  width: 24px;
-  height: 24px;
   fill: #000;
 }
