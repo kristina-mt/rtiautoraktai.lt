@@ -339,6 +339,7 @@ Mūsų programavimo paslaugos apima:</p>
     "hero-sub":
       "Автомобили, мотоциклы, грузовики – программирование, копирование, ECU ремап",
     "banner-text": "🔐 Экстренная помощь 24/7 по всей Литве.",
+    "hero-phone": "📞 Позвоните +370 623 85036 или напишите в WhatsApp",
 "contact-button": "Позвонить",
  "contact-aria": "Позвоните нам сейчас",
    "about-title": "О нас",
@@ -509,7 +510,7 @@ RTi Auto Raktai предлагает профессиональный серви
     "hero-sub":
       "Samochody, motocykle, ciężarówki – programowanie, kopiowanie, remap ECU",
     "banner-text": "🔐 Całodobowa pomoc awaryjna na terenie całej Litwy.",
-
+ "hero-phone": "📞 Zadzwoń +370 623 85036 lub napisz na WhatsApp",
     "contact-button": "Zadzwoń",
      "contact-aria": "Zadzwoń do nas teraz",
     "about-title": "O nas",

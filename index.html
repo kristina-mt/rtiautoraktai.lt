@@ -201,28 +201,25 @@
 <header class="hero">
 
   <div class="top-bar">
-    <!-- kalbų mygtukai -->
-    <!-- socialinių tinklų ikonų grupė -->
+
   </div>
 
   <div class="logo-wrapper">
     <img src="images/logo.png" alt="RTi Auto Raktai" class="logo" />
   </div>
 
-  <h1 data-i18n="hero-title"></h1>
+   <h1 data-i18n="hero-title"></h1>
   <h2 data-i18n="hero-phone"></h2>
   <p data-i18n="hero-sub"></p>
   <p data-i18n="banner-text"></p>
 
-<a href="tel:+37062385036" class="universal-call-btn" aria-label="Skambinti telefonu">
-  <svg xmlns="http://www.w3.org/2000/svg" class="phone-icon" viewBox="0 0 512 512">
-    <path d="M391 351c-30 0-58-5-84-16-9-4-20-1-27 6l-46 35c-50-27-90-67-117-117l35-46c7-7 10-18 6-27-11-26-16-54-16-84 0-15-12-27-27-27H75c-15 0-27 12-27 27 0 183 148 331 331 331 15 0 27-12 27-27v-48c0-15-12-27-27-27z"/>
-  </svg>
-  <span class="call-text" data-i18n="contact-button">Skambinti</span>
-</a>
-
-
-
+ <a href="tel:+37062385036"
+     class="call-button hero-call"
+     aria-label=" 📞"
+     data-i18n="contact-button"
+     data-i18n-aria="contact-aria">
+     📞 Call Now
+  </a>
     </header>
 
 
@@ -431,15 +428,16 @@
       <p data-i18n="footer-credits"></p>
       <p data-i18n="footer-privacy"></p>
       <p data-i18n="footer-terms"></p>
- <a 
-  href="tel:+37062385036" 
-  class="sticky-call-btn" 
-  aria-label="Skambinti telefonu"
->
-  <span class="call-icon">📞 Call Now </span>
-  <span class="call-text" data-i18n="call-now"></span>
-</a>
-
+ 
+ <div class="sticky-call-container">
+  <a href="tel:+37062385036"
+     class="call-now-button"
+     data-i18n="contact-button"
+     data-i18n-aria="contact-aria"
+     aria-label="Call us now">
+    📞 Call Now
+  </a>
+</div>
 
 
 
