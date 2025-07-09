@@ -736,4 +736,28 @@ section::after {
   width: 20px;
   height: 20px;
 }
+.universal-call-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background-color: #fdd835;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
 
+.universal-call-btn:hover {
+  background-color: #ffe651;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.universal-call-btn .phone-icon {
+  width: 20px;
+  height: 20px;
+  fill: #000;
+}
