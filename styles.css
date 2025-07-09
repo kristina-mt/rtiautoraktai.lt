@@ -98,6 +98,24 @@ section + section {
     width: 120px;
   }
 }
+..logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.logo {
+  max-width: 80%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    max-width: 70%;
+    margin-top: 10px;
+  }
+}
 
 
 .hero h1 h2{
