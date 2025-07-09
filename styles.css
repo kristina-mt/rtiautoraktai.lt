@@ -613,7 +613,7 @@ section::after {
   }
 }
 
-.sticky-call-btn{
+.call-now-button {
   position: fixed;
   bottom: 6.5rem;
   right: 1.5rem;
@@ -633,6 +633,33 @@ section::after {
   height: 32px;
   margin-right: 0.5rem;
   animation: ring 1.5s infinite ease-in-out;
+}
+.sticky-call-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #173cb8;
+  color: #000;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.sticky-call-btn:hover {
+  background-color: #e0b800;
+}
+
+.call-icon {
+  margin-right: 10px;
+  font-size: 18px;
 }
 
 .call-now-button .call-text {
