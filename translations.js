@@ -5,7 +5,7 @@ const translations = {
       "Car keys, motorcycles, vans, lorries – programming, duplication, ECU remapping, emergency unlocking",
     "banner-text": "🔐 24/7 Service throughout Lithuania  .",
     "hero-phone": "📞 Call +370 623 85036  or WhatsApp",
-    "contact-button": "Call Now",
+    "contact-button": "📞Call Now",
      "contact-aria": "Call us now",
     "about-title": "About Us",
 "about-text": `
@@ -168,7 +168,7 @@ Below is a general guide to our service rates:</p>
     "hero-sub":
       "Automobiliai, motociklai, autobusiukai, vilkikai – programavimas, kopijavimas, ECU Čipų programavimas, avarinis atrakinimas",
     "banner-text": "🔐 24/7 pagalba visoje Lietuvoje.",
-    "contact-button": "Skambinti",
+    "contact-button": "📞Skambinti",
     "hero-phone": "📞 Skambinkite +370 623 85036 arba rašykite WhatsApp",
     "contact-button": "Skambinti",
      "contact-aria": "Skambinkite mums dabar",
@@ -340,7 +340,7 @@ Mūsų programavimo paslaugos apima:</p>
       "Автомобили, мотоциклы, грузовики – программирование, копирование, ECU ремап",
     "banner-text": "🔐 Экстренная помощь 24/7 по всей Литве.",
     "hero-phone": "📞 Позвоните +370 623 85036 или напишите в WhatsApp",
-"contact-button": "Позвонить",
+"contact-button": "📞Позвонить",
  "contact-aria": "Позвоните нам сейчас",
    "about-title": "О нас",
 "about-text": `
@@ -511,7 +511,7 @@ RTi Auto Raktai предлагает профессиональный серви
       "Samochody, motocykle, ciężarówki – programowanie, kopiowanie, remap ECU",
     "banner-text": "🔐 Całodobowa pomoc awaryjna na terenie całej Litwy.",
  "hero-phone": "📞 Zadzwoń +370 623 85036 lub napisz na WhatsApp",
-    "contact-button": "Zadzwoń",
+    "contact-button": "📞Zadzwoń",
      "contact-aria": "Zadzwoń do nas teraz",
     "about-title": "O nas",
 "about-text": `
