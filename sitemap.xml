@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://www.rtiautoraktai.lt/en/</loc>
     <lastmod>2025-06-25</lastmod>
@@ -12,6 +13,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.rtiautoraktai.lt/lt/</loc>
     <lastmod>2025-06-25</lastmod>
@@ -24,6 +26,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.rtiautoraktai.lt/pl/</loc>
     <lastmod>2025-06-25</lastmod>
@@ -36,6 +39,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.rtiautoraktai.lt/ru/</loc>
     <lastmod>2025-06-25</lastmod>
@@ -48,17 +52,20 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-</urlset>
-<url>
-  <loc>https://rtiautoraktai.lt/seo.html</loc>
-</url>
-<url>
-  <loc>https://rtiautoraktai.lt/robots.txt</loc>
-</url>
-<url>
-<url>
-  <loc>https://rtiautoraktai.lt/thanks.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.2</priority>
-</url>
 
+  <!-- Nauji puslapiai -->
+  <url>
+    <loc>https://rtiautoraktai.lt/seo.html</loc>
+    <lastmod>2025-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rtiautoraktai.lt/thanks.html</loc>
+    <lastmod>2025-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+</urlset>
