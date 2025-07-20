@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Disclaimer Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #1a1a1a;
+      color: #fff;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .logo {
+      max-width: 200px;
+      margin-bottom: 1rem;
+    }
+
+    .form-container {
+      background: #2b2b2b;
+      padding: 2rem;
+      border-radius: 8px;
+      width: 100%;
+      max-width: 600px;
+      box-shadow: 0 0 10px #000;
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    label {
+      display: block;
+      margin: 1rem 0 0.5rem;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 0.75rem;
+      border-radius: 4px;
+      border: none;
+      font-size: 1rem;
+    }
+
+    input[type="checkbox"] {
+      width: auto;
+    }
+
+    .checkbox-container {
+      margin-top: 1rem;
+    }
+
+    .submit-button {
+      background-color: gold;
+      color: black;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1.5rem;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .language-selector {
+      text-align: right;
+      margin-bottom: 1rem;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <img src="images/logo_resized.png" alt="RTi Auto Raktai Logo" class="logo"/>
+  <div class="form-container">
+    <div class="language-selector">
+      <label for="language">🌍</label>
+      <select id="language">
+        <option value="en">EN</option>
+        <option value="lt">LT</option>
+        <option value="pl">PL</option>
+        <option value="ru">RU</option>
+      </select>
+    </div>
+    <h2 data-i18n="disclaimer-title">Disclaimer Form</h2>
+    <form name="disclaimer" method="POST" data-netlify="true" action="thanks.html">
+      <input type="hidden" name="form-name" value="disclaimer" />
+      <label for="full-name" data-i18n="full-name-label">Full Name</label>
+      <input type="text" id="full-name" name="full-name" required />
+
+      <label for="email" data-i18n="email-label">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="vehicle" data-i18n="vehicle-details-label">Vehicle Details</label>
+      <textarea id="vehicle" name="vehicle" rows="2" required></textarea>
+
+      <label data-i18n="disclaimer-text-label">Disclaimer</label>
+      <p data-i18n="disclaimer-text">RTi Auto Raktai is not responsible for any issues...</p>
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="agree" name="agree" required />
+        <label for="agree" data-i18n="agree-check">I agree to the terms</label>
+      </div>
+
+      <button type="submit" class="submit-button" data-i18n="submit-button">Submit</button>
+    </form>
+  </div>
+
+  <script>
+    const translations = {
+      en: {
+        "disclaimer-title": "Disclaimer Form",
+        "full-name-label": "Full Name",
+        "email-label": "Email",
+        "vehicle-details-label": "Vehicle Details",
+        "disclaimer-text-label": "Disclaimer",
+        "disclaimer-text": "RTi Auto Raktai is not responsible for any issues that occur after key programming or creation. I confirm that I was informed about possible risks, and I release the company from all liability.",
+        "agree-check": "I agree to the terms and conditions",
+        "submit-button": "Submit"
+      },
+      lt: {
+        "disclaimer-title": "Atsakomybės forma",
+        "full-name-label": "Vardas ir pavardė",
+        "email-label": "El. paštas",
+        "vehicle-details-label": "Transporto priemonės duomenys",
+        "disclaimer-text-label": "Atsakomybė",
+        "disclaimer-text": "RTi Auto Raktai neatsako už jokias problemas, kurios gali kilti po raktų programavimo ar gamybos. Patvirtinu, kad buvau informuotas apie galimą riziką ir atleidžiu įmonę nuo bet kokios atsakomybės.",
+        "agree-check": "Sutinku su sąlygomis",
+        "submit-button": "Pateikti"
+      },
+      pl: {
+        "disclaimer-title": "Formularz zrzeczenia się odpowiedzialności",
+        "full-name-label": "Imię i nazwisko",
+        "email-label": "Email",
+        "vehicle-details-label": "Szczegóły pojazdu",
+        "disclaimer-text-label": "Zrzeczenie się odpowiedzialności",
+        "disclaimer-text": "RTi Auto Raktai nie ponosi odpowiedzialności za jakiekolwiek problemy po zaprogramowaniu lub wykonaniu kluczy. Potwierdzam, że zostałem poinformowany o możliwym ryzyku i zwalniam firmę z wszelkiej odpowiedzialności.",
+        "agree-check": "Zgadzam się z warunkami",
+        "submit-button": "Zatwierdź"
+      },
+      ru: {
+        "disclaimer-title": "Форма отказа от ответственности",
+        "full-name-label": "Полное имя",
+        "email-label": "Эл. почта",
+        "vehicle-details-label": "Данные автомобиля",
+        "disclaimer-text-label": "Отказ от ответственности",
+        "disclaimer-text": "RTi Auto Raktai не несёт ответственности за любые проблемы, возникшие после программирования или создания ключей. Подтверждаю, что был проинформирован о возможных рисках и освобождаю компанию от любой ответственности.",
+        "agree-check": "Я согласен с условиями",
+        "submit-button": "Отправить"
+      }
+    };
+
+    function updateLanguage(lang) {
+      const elements = document.querySelectorAll("[data-i18n]");
+      elements.forEach(el => {
+        const key = el.getAttribute("data-i18n");
+        if (translations[lang][key]) {
+          el.textContent = translations[lang][key];
+        }
+      });
+    }
+
+    document.getElementById("language").addEventListener("change", (e) => {
+      updateLanguage(e.target.value);
+    });
+
+    updateLanguage("en");
+  </script>
+</body>
+</html>

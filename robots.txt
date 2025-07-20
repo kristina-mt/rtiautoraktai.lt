@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.rtiautoraktai.lt/sitemap.xml
+User-agent: *
+Disallow: /disclaimer.html

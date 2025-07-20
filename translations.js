@@ -6,7 +6,7 @@ const translations = {
     "banner-text": "🔐 24/7 Service throughout Lithuania  .",
     "hero-phone": "📞 Call +370 623 85036  or WhatsApp",
     "contact-button": "📞Call Now",
-     "contact-aria": "Call us now",
+    "contact-aria": "Call us now",
     "about-title": "About Us",
 "about-text": `
 <p>RTi Auto Raktai has over <strong>10 years of experience</strong> in the automotive locksmith industry.<br>
@@ -161,14 +161,23 @@ Below is a general guide to our service rates:</p>
 "nav-postal": "Mail-in Service",
 "nav-training": "Training",
 "nav-contact": "Contact",
-
+ "disclaimer-title": "Disclaimer Form",
+    "full-name-label": "Full Name",
+    "email-label": "Email",
+    "vehicle-details-label": "Vehicle Details",
+    "disclaimer-text-label": "Disclaimer",
+    "disclaimer-text": "RTi Auto Raktai is not responsible for any issues that occur after key programming or creation. I confirm that I was informed about possible risks, and I release the company from all liability.",
+    "agree-check": "I agree to the terms and conditions",
+    "submit-button": "Submit",
+    "thanks-title": "Thank You!",
+    "thanks-text": "Your disclaimer has been submitted successfully.",
   },
   lt: {
     "hero-title": "Greita ir patikima automobilių raktų pagalba",
     "hero-sub":
       "Automobiliai, motociklai, autobusiukai, vilkikai – programavimas, kopijavimas, ECU Čipų programavimas, avarinis atrakinimas",
     "banner-text": "🔐 24/7 pagalba visoje Lietuvoje.",
-    "contact-button": "📞Skambinti",
+    "contact-button": " 📞Skambinti",
     "hero-phone": "📞 Skambinkite +370 623 85036 arba rašykite WhatsApp",
     "contact-button": "Skambinti",
      "contact-aria": "Skambinkite mums dabar",
@@ -331,9 +340,18 @@ Mūsų programavimo paslaugos apima:</p>
 "nav-postal": "Paslauga paštu",
 "nav-training": "Mokymai",
 "nav-contact": "Kontaktai",
-
-    
+ "disclaimer-title": "Atsakomybės forma",
+    "full-name-label": "Pilnas vardas",
+    "email-label": "El. paštas",
+    "vehicle-details-label": "Transporto priemonės duomenys",
+    "disclaimer-text-label": "Atsakomybės pareiškimas",
+    "disclaimer-text": "RTi Auto Raktai neatsako už jokią žalą, atsiradusią po rakto gamybos ar programavimo. Patvirtinu, kad buvau informuotas apie galimą riziką ir atleidžiu įmonę nuo bet kokios atsakomybės.",
+    "agree-check": "Sutinku su sąlygomis",
+    "submit-button": "Pateikti",
+    "thanks-title": "Ačiū!",
+    "thanks-text": "Jūsų forma buvo sėkmingai pateikta.",
   },
+  
   ru: {
     "hero-title": "Быстрая и надежная помощь с ключами",
     "hero-sub":
@@ -503,6 +521,25 @@ RTi Auto Raktai предлагает профессиональный серви
 "nav-postal": "Почтовая услуга",
 "nav-training": "Обучение",
 "nav-contact": "Контакты",
+"disclaimer-title": "Форма отказа от ответственности",
+"full-name-label": "Полное имя",
+"vehicle-details-label": "Данные транспортного средства",
+"disclaimer-text": "RTi Auto Raktai не несет ответственности за неисправности, возникшие после программирования или изготовления ключа.",
+"agree-check": "Я согласен с условиями",
+"submit-button": "Отправить",
+"thanks-title": "Спасибо!",
+"thanks-text": "Ваша форма отказа от ответственности успешно отправлена.",
+"send-button": "Отправить",
+ "disclaimer-title": "Форма отказа от ответственности",
+    "full-name-label": "Полное имя",
+    "email-label": "Эл. почта",
+    "vehicle-details-label": "Данные транспортного средства",
+    "disclaimer-text-label": "Отказ от ответственности",
+    "disclaimer-text": "RTi Auto Raktai не несет ответственности за любые проблемы, возникшие после изготовления или программирования ключа. Я подтверждаю, что был проинформирован о возможных рисках и освобождаю компанию от всей ответственности.",
+    "agree-check": "Я согласен с условиями",
+    "submit-button": "Отправить",
+    "thanks-title": "Спасибо!",
+    "thanks-text": "Ваша форма успешно отправлена."
 
   },
   pl: {
@@ -677,6 +714,25 @@ Przykładowe stawki naszych usług:</p>
 "nav-postal": "Usługa pocztowa",
 "nav-training": "Szkolenia",
 "nav-contact": "Kontakt",
+"disclaimer-title": "Formularz zrzeczenia się odpowiedzialności",
+"full-name-label": "Imię i nazwisko",
+"vehicle-details-label": "Dane pojazdu",
+"disclaimer-text": "RTi Auto Raktai nie ponosi odpowiedzialności za usterki powstałe po zaprogramowaniu lub wykonaniu klucza.",
+"agree-check": "Zgadzam się z warunkami",
+"submit-button": "Wyślij",
+"thanks-title": "Dziękujemy!",
+"thanks-text": "Twój formularz zrzeczenia się odpowiedzialności został pomyślnie wysłany.",
+"send-button": "Wyślij",
+"disclaimer-title": "Formularz zrzeczenia się odpowiedzialności",
+    "full-name-label": "Imię i nazwisko",
+    "email-label": "E-mail",
+    "vehicle-details-label": "Dane pojazdu",
+    "disclaimer-text-label": "Oświadczenie",
+    "disclaimer-text": "RTi Auto Raktai nie ponosi odpowiedzialności za jakiekolwiek usterki po wykonaniu lub zaprogramowaniu klucza. Potwierdzam, że zostałem poinformowany o możliwych zagrożeniach i zwalniam firmę z wszelkiej odpowiedzialności.",
+    "agree-check": "Zgadzam się z warunkami",
+    "submit-button": "Wyślij",
+    "thanks-title": "Dziękujemy!",
+    "thanks-text": "Twój formularz został pomyślnie wysłany."
 
   },
 };

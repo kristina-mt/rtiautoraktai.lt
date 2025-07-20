@@ -174,3 +174,20 @@ document.querySelectorAll("[data-i18n-aria]").forEach(el => {
   sections.forEach(section => observer.observe(section));
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  const languageSelect = document.getElementById('language-select');
+  const defaultLang = 'en';
+  const currentLang = localStorage.getItem('lang') || defaultLang;
+
+  translatePage(currentLang);
+  if (languageSelect) languageSelect.value = currentLang;
+
+  if (languageSelect) {
+    languageSelect.addEventListener('change', (e) => {
+      const selectedLang = e.target.value;
+      localStorage.setItem('lang', selectedLang);
+      translatePage(selectedLang);
+    });
+  }
+});
+
