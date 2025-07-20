@@ -815,3 +815,79 @@ section::after {
   display: flex;
   justify-content: center;
 }
+.service-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.service {
+  flex: 1 1 200px;
+  max-width: 250px;
+  text-align: center;
+}
+.service img {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: contain;
+}
+.animated-service {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animated-service:hover {
+  transform: scale(1.1) rotate(1deg);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.animated-service {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.animated-service:hover {
+  transform: translateY(-5px);
+  animation: glow 1.5s infinite alternate;
+  box-shadow: 0 8px 20px rgba(255, 223, 0, 0.4); /* švytėjimo šešėlis */
+}
+
+/* Glow animacija */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 223, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(255, 223, 0, 0.7);
+  }
+}
+.animated-service {
+  animation: float 2.5s ease-in-out infinite;
+}
+
+/* Animacijos raktai */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+.services-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.key-icon {
+  width: 100px; /* sumažintas raktas */
+  height: auto;
+  flex-shrink: 0;
+}
+
+.services-text {
+  flex: 1;
+}

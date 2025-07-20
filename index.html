@@ -1,110 +1,86 @@
 <!DOCTYPE html>
 <html lang="lt">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="google-site-verification" content="yX3735X7FgM2m3TVuLy1x0Y4A3Hdvt-VjDBSA6VuP4w" />
-    <meta name="application-name" content="RTi Auto Raktai" />
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="yX3735X7FgM2m3TVuLy1x0Y4A3Hdvt-VjDBSA6VuP4w" />
+  <meta name="application-name" content="RTi Auto Raktai" />
 
-    <title>
-  RTi Auto Raktai | Automobilių raktų programavimas ir remontas Lietuvoje
-</title>
+  <title>RTi Auto Raktai | Automobilių, motociklų ir sunkvežimių raktai Lietuvoje</title>
 
-    <!-- SEO -->
-  <meta
-  name="description"
-  content="Automobilių raktų gamyba, programavimas, uždegimo spynelių remontas, avarinis atrakinimas – visoje Lietuvoje. Patikima ir greita pagalba."
-/>
-<meta
-  name="keywords"
-  content="automobilių raktai, raktų programavimas, avarinis atrakinimas, spynelių remontas, RTi Auto Raktai"
-/>
-<meta name="author" content="RTi Auto Raktai" />
-<meta name="language" content="lt-LT" />
-<link rel="canonical" href="https://www.rtiautoraktai.lt/" />
+  <!-- SEO -->
+  <meta name="description" content="Automobilių, motociklų, mikroautobusų ir sunkvežimių raktų gamyba, programavimas, uždegimo spynelių remontas, avarinis atrakinimas – visoje Lietuvoje. Patikima ir greita pagalba." />
+  <meta name="keywords" content="automobilių raktai, motociklų raktai, mikroautobusų raktai, sunkvežimių raktai, raktų programavimas, avarinis atrakinimas, spynelių remontas, RTi Auto Raktai" />
+  <meta name="author" content="RTi Auto Raktai" />
+  <meta name="language" content="lt-LT" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
+  <link rel="canonical" href="https://www.rtiautoraktai.lt/" />
 
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow" />
+  <!-- Icons & Styles -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preload" as="image" href="images/logo.webp" type="image/webp" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-    <!-- Icons & Styles -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="preload"
-      as="font"
-      href="images/logo.webp"
-      type="image/webp"
-      />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    
+  <!-- Open Graph -->
+  <meta property="og:title" content="RTi Auto Raktai – Automobilių, motociklų ir sunkvežimių raktų meistrai Lietuvoje" />
+  <meta property="og:description" content="Raktų gamyba, ECU programavimas, avarinis atrakinimas – pasiekiame visoje Lietuvoje. Dirbame su visų tipų transportu." />
+  <meta property="og:image" content="https://www.rtiautoraktai.lt/images/logo.webp" />
+  <meta property="og:url" content="https://www.rtiautoraktai.lt" />
+  <meta property="og:type" content="website" />
 
-    <!-- hreflang -->
-    <meta property="og:title" content="RTi Auto Raktai – Automobilių raktų meistrai Lietuvoje" />
-<meta property="og:description" content="Raktų gamyba, ECU programavimas, atrakinimas – pasiekiame visoje Lietuvoje." />
-<meta property="og:image" content="https://www.rtiautoraktai.lt/images/logo.webp" />
-<meta property="og:url" content="https://www.rtiautoraktai.lt" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="RTi Auto Raktai – Raktų programavimas ir gamyba Lietuvoje" />
+  <meta name="twitter:description" content="Automobilių, motociklų, mikroautobusų ir sunkvežimių raktų paslaugos – greitai ir patikimai visoje Lietuvoje." />
+  <meta name="twitter:image" content="https://www.rtiautoraktai.lt/images/logo.webp" />
+  <meta name="twitter:site" content="@rtiauto" />
 
+  <!-- hreflang (jei turite daugiakalbiškumą) -->
+  <link rel="alternate" href="https://www.rtiautoraktai.lt/" hreflang="lt" />
+  <link rel="alternate" href="https://www.rtiautoraktai.lt/en/" hreflang="en" />
+  <link rel="alternate" href="https://www.rtiautoraktai.lt/ru/" hreflang="ru" />
+  <link rel="alternate" href="https://www.rtiautoraktai.lt/pl/" hreflang="pl" />
 
-    <!-- Open Graph / Twitter -->
-   <meta property="og:title" content="RTi Auto Raktai – Automobilių raktų meistrai Lietuvoje" />
-<meta property="og:description" content="Raktų gamyba, ECU programavimas, atrakinimas – pasiekiame visoje Lietuvoje." />
-<meta property="og:image" content="https://www.rtiautoraktai.lt/images/logo.webp" />
-<meta property="og:url" content="https://www.rtiautoraktai.lt" />
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "RTi Auto Raktai",
+    "url": "https://www.rtiautoraktai.lt",
+    "logo": "https://www.rtiautoraktai.lt/images/logo.webp",
+    "image": "https://www.rtiautoraktai.lt/images/logo.webp",
+    "description": "Automobilių, motociklų, mikroautobusų ir sunkvežimių raktų gamyba, programavimas, spynelių remontas ir avarinis atrakinimas visoje Lietuvoje.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Anykščių rajonas",
+      "addressCountry": "LT"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 55.511,
+      "longitude": 25.099
+    },
+    "telephone": "+37062385036",
+    "email": "rtiautoraktai@gmail.com",
+    "openingHours": "Mo-Su 00:00-23:59",
+    "sameAs": [
+      "https://www.facebook.com/hare/1EsKP3KnMd/",
+      "https://www.instagram.com/rti_auto_locksmith/",
+      "https://wa.me/37062385036",
+      "https://x.com/rti_auto",
+      "https://www.youtube.com/@rtiautolocksmith6312"
+    ]
+  }
+  </script>
 
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-   <meta name="twitter:title" content="RTi Auto Raktai – Pagalba visoje Lietuvoje" />
-<meta name="twitter:description" content="Automobilių raktų gamyba ir programavimas – patikimi meistrai visoje Lietuvoje." />
-<meta name="twitter:image" content="https://www.rtiautoraktai.lt/images/logo.webp" />
-
-    <meta name="twitter:site" content="@rtiauto" />
-
-
-    <!-- Apple & JSON-LD -->
-    <link rel="apple-touch-icon" href="images/logo.webp" />
-    <script type="application/ld+json">
-    {
-  "@context": "https://schema.org",
-  "@type": "AutoRepair",
-  "name": "RTi Auto Raktai",
-  "url": "https://www.rtiautoraktai.lt",
-  "logo": "https://www.rtiautoraktai.lt/images/logo.webp",
-  "image": "https://www.rtiautoraktai.lt/images/logo.webp",
-  "description": "Automobilių raktų programavimas, gamyba, spynelių remontas, chip tuning, avarinis atrakinimas – visoje Lietuvoje.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Anykščių rajonas",
-    "addressCountry": "LT"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 55.511,
-    "longitude": 25.099
-  },
-  "telephone": "+37062385036",
-  "email": "rtiautoraktai@gmail.com",
-  "openingHours": "Mo-Su 00:00-23:59",
-  "sameAs": [
-    "https://www.facebook.com/hare/1EsKP3KnMd/",
-    "https://www.instagram.com/rti_auto_locksmith/",
-    "https://wa.me/37062385036",
-    "https://x.com/rti_auto",
-    "https://www.youtube.com/@rtiautolocksmith6312"
-  ]
-}
-
-    </script>
-
-    <!-- Scripts (defer!) -->
-    <script src="translations.js" defer></script>
-    <script src="script.js" defer></script>
-
-
-  </head>
+  <!-- Scripts -->
+  <script src="translations.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
 
   <body>
     <main>
@@ -112,7 +88,7 @@
       
       
       <ul class="nav-links" id="navLinks"> 
-        <li><a href="#chip-tuning" data-i18n="nav-chip-tuning" title="Chip Tuning">Čipų programavimas</a></li>
+        <li><a href="#chip-tuning" data-i18n="nav-chip-tuning" title="Chip Tuning">chip-tuning</a></li>
         <li><a href="#postalService" data-i18n="nav-postal" title="Postal Service">Mail-in lock</a></li>
         <li><a href="#about" data-i18n="nav-about" title="About Us">About Us</a></li>
         <li><a href="#services" data-i18n="nav-services" title="Services">Services</a></li>
@@ -233,17 +209,53 @@
 
 <!-- Mūsų paslaugos -->
 <section class="services section-fade-left" id="services">
-  <h2 data-i18n="services-title"></h2>
-  <ul>
-    <li data-i18n="service1"></li>
-    <li data-i18n="service2"></li>
-    <li data-i18n="service3"></li>
-    <li data-i18n="service4"></li>
-    <li data-i18n="service5"></li>
-    <li data-i18n="service6"></li>
-  </ul>
-</section> 
+  <div class="services-header">
+    <img src="images/key.png" alt="Raktas" class="key-icon" />
+    <div class="services-text">
+      <h2 data-i18n="services-title"></h2>
+      <ul>
+        <li data-i18n="service1"></li>
+        <li data-i18n="service2"></li>
+        <li data-i18n="service3"></li>
+        <li data-i18n="service4"></li>
+        <li data-i18n="service5"></li>
+        <li data-i18n="service6"></li>
+      </ul>
+    </div>
+  </div>
+</section>
 
+<!-- 🆕 Specifinės transporto priemonių paslaugos -->
+<section class="service-section section-fade-left">
+  <div class="service">
+    <img src="images/motorbike.png" alt="Motociklų raktai" class="animated-service" />
+    <p data-i18n="motorbikeService">
+     <strong>Motociklų raktai</strong> <br><br>Programuojame ir gaminame motociklų raktus: Yamaha, Honda, Suzuki, KTM ir kt. Immo išjungimas, užvedimo spynelių remontas.
+    </p>
+  </div>
+
+  <div class="service">
+    <img src="images/truck.png" alt="Sunkvežimių raktai" class="animated-service" />
+    <p data-i18n="truckService">
+      <strong>Sunkvežimių raktai</strong> <br><br>Raktų dublikavimas, imobilizatoriaus programavimas, avarinis atrakinimas. Dirbame su MAN, Volvo, DAF, Mercedes ir kt.
+    </p>
+  </div>
+
+  <div class="service">
+    <img src="images/van.png" alt="Mikroautobusų raktai" class="animated-service"/>
+    <p data-i18n="vanService">
+      <strong>Mikroautobusų raktai</strong> <br>Mikroautobusų raktų gamyba ir pririšimas prie borto kompiuterio. Visi populiariausi modeliai: Renault Trafic, VW Transporter, Ford Transit.
+    </p>
+  </div>
+  <div class="service">
+    <img src="images/auto.png" alt="automobilių raktai" class="animated-service" />
+    <p data-i18n="autoService">
+      <strong>Automobilių raktai</strong> <br><br>Automobilių raktų dublikavimas, imobilizatoriaus programavimas, avarinis atrakinimas. Dirbame su BMW, Audi, Volkswagen, Ford, Volvo, ir kt.
+    </p>
+  </div>
+
+
+</section>
 <!-- Apie mus -->
 <section class="about section-fade-left" id="about">
   <h2 data-i18n="about-title"></h2>
