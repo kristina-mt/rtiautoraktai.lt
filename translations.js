@@ -2,7 +2,7 @@ const translations = {
   en: {
     "hero-title": "Fast and reliable auto locksmith service",
     "hero-sub":
-      "Car keys, motorcycles, vans, lorries – programming, duplication, ECU remapping, emergency unlocking",
+      "Car keys, motorcycles, van, lorries – programming, duplication, ECU remapping, emergency unlocking",
     "banner-text": "🔐 24/7 Service throughout Lithuania  .",
     "hero-phone": "📞 Call +370 623 85036  or WhatsApp",
     "contact-button": "📞Call Now",
@@ -181,7 +181,7 @@ Below is a general guide to our service rates:</p>
   lt: {
     "hero-title": "Greita ir patikima automobilių raktų pagalba",
     "hero-sub":
-      "Automobiliai, motociklai, autobusiukai, vilkikai – programavimas, kopijavimas, ECU Čipų programavimas, avarinis atrakinimas",
+      "Automobilių, motociklų ir sunkvežimių– raktų gamyba, programavimas ir remontas, ECU Čipų programavimas, avarinis atrakinimas",
     "banner-text": "🔐 24/7 pagalba visoje Lietuvoje.",
     "contact-button": " 📞Skambinti",
     "hero-phone": "📞 Skambinkite +370 623 85036 arba rašykite WhatsApp",
